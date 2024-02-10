@@ -1,3 +1,4 @@
+/* Styles for loading animation */
 #loading-overlay {
     position: fixed;
     top: 0;
@@ -35,6 +36,8 @@ body{
     margin: 0;
     padding: 0;
     color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 html{
     scroll-behavior: smooth;
@@ -199,15 +202,19 @@ header{
 }
 .model-text{
     padding-left: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 560;
+
 }
 
-/* #Contact{
-    background: linear-gradient(rgba(14, 24, 45, 0.6),rgba(9, 36, 49, 0.5)),url(images/header.jpg);
-    background-position: center;
-    background-size: cover;
-    margin-top: -100px;
-} */
+footer,footer a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    opacity: .8;
 
+}
 @media (min-width:320px) and (max-width:768px)
 {
    body{
@@ -253,6 +260,9 @@ header{
    .model-text{
     text-align: justify;
 
+   }
+   .model-heading{
+    margin-top: 50px;
    }
 
 }

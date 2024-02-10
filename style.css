@@ -178,7 +178,6 @@ header{
 @media (min-width:320px) and (max-width:768px)
 {
    body{
-    overflow-x: hidden;
-    width: fit-content;
+    width: min-content;
    }
 }
